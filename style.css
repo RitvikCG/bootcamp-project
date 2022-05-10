@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+         background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm380-20.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4d6304b585de40eea19817e15f983bd0) ;  
+        background-size: cover; 
+}
+.hello{
+    color: rgb(179, 108, 3);
+    font-size: 30px;
+    font-weight: 700;
+}
+.container{ 
+        color: black;
+        position: absolute;
+        top: 25%;
+        left: 32%; 
+}
+.box{
+        width: 45%; 
+        margin: 22px 0px;
+        border-bottom: 2px solid  rgb(179, 108, 3);
+}
+.box input{  
+        background: none;
+        width: 75%;
+        padding: 5px 10px;
+        font-size: 20px;
+        border: none;
+        outline:none;
+        color:rgb(179, 108, 3);
+} 
+.btn{
+        color:rgb(179, 108, 3);
+        cursor: pointer;
+        outline: none; 
+        margin: 32px 0; 
+        padding: 10px 21px;
+        border: 2px solid  rgb(179, 108, 3);
+        border-radius: 10px;
+        font-size: 18px;
+        background: none;
+        font-weight: bold;
+        width: 505px;
+        
+}
+.box i{ 
+        width: 25px; 
+        text-align: center;
+}
+.btn:hover{
+        opacity: 0.8;
+        color: whitesmoke; 
+        background: rgb(179, 108, 3); 
+        
+}  
+.forget{
+    text-decoration: none;
+    color: rgb(122, 118, 112) ;
+    font-weight: bolder;
+    
+}
+.forget:hover{
+    text-decoration: none;
+    color: rgb(122, 118, 112) ;
+}
+.fpass{
+    margin-left: 230px;
+    font-size: 17px;
+    
+}
+.rem{
+    padding-top: 10px;
+    color: rgb(179, 108, 3);
+    font-size: 17px;
+}
+#remember{
+    display:inline;
+}
+.clickhere{
+    color: rgb(179, 108, 3);
+    font-size: 17px;
+}
+.clhere{
+    text-decoration: none;
+    color:rgb(122, 118, 112) ;
+    font-weight: bolder;
+}
+.clhere:hover{
+    text-decoration: none;
+    color:rgb(122, 118, 112) ;
+}
+.sidebar{
+    height:100vh;
+    width:4vw;
+    background-color:rgb(179, 108, 3);
+    transition: width 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+.sidebar:hover{
+    width: 8vw;
+}
+input[type="checkbox"]{
+    margin-right: 5px;
+}

@@ -1,0 +1,52 @@
+.sidebar{
+    width: 4vw;
+    min-width: 55px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: rgb(179, 108, 3);
+    transition: width 0.5s ease-in-out;
+    justify-content: center;
+
+}
+table{
+    color:rgb(141, 133, 133);
+}
+.sidebar:hover{
+    width: 8vw;
+}
+
+.sidebar:hover  .hide{
+    display: block;
+}
+svg:hover::after{
+    content: 'profile';
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.main-div{
+    display: flex;
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm380-20.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4d6304b585de40eea19817e15f983bd0) ;  
+    background-size: cover;
+    height: 100%;
+}
+.hide{
+    display: none;
+    
+}
+p.hide{
+    font-size: 1.5rem;
+}
+
+.table-container{
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
